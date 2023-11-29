@@ -1,0 +1,81 @@
+#root{
+background-image: linear-gradient(to right bottom, #f4ff00, #efba0f, #ce7e2b, #9a4e32, #5b2b2a, #50313c, #423741, #3b3b3b, #676767, #979797, #cacaca, #ffffff);
+}
+
+.encabezado {
+  width: 100%;
+  height: 13vh;
+  background-color: rgb(243, 243, 6);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo{
+  width: 12%;
+  height: 13vh;
+  margin-left: 20px;
+  border-radius: 50%;
+}
+
+.botones-sesion-usuario {
+  width: 19%;
+  height: 80%;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.botones-sesion-usuario button {
+  padding: 20px;
+  border-radius: 20px;
+  font-size: 16px;
+  background-color: yellow;
+}
+
+.separador{
+  width: 100%;
+  height: 20px;
+  background-color: rgb(128, 128, 128);
+}
+
+.principal{
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+
+.menu-lateral{
+  width: 20%;
+  height: 81vh;
+  background-color: rgb(211, 211, 211);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  position: fixed;
+}
+
+.menu-lateral button{
+  padding: 20px;
+  border-radius: 20px;
+  font-size: 16px;
+  background-color: grey;
+  margin: 10px;
+}
+
+.menu-principal{
+  width: 80%;
+  height: 81vh;
+  background-color: white(255, 25, 25);
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;  
+}
+
+.menu-principal button{
+  padding: 20px;
+  border-radius: 20px;
+  font-size: 16px;
+  background-color: rgba(255, 255, 0, 0);
+  height: 80px;
+}
